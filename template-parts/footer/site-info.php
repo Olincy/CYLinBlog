@@ -3,7 +3,7 @@
  * Displays footer site info
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @subpackage CYLinBlog
  * @since 1.0
  * @version 1.0
  */
@@ -15,7 +15,7 @@
 		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 	}
 	?>
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>" class="imprint">
-		<?php printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' ); ?>
+	<a href="<?php echo esc_url( __( 'http://www.lincuiyang.com/', 'CYLinBlog' ) ); ?>" class="imprint">
+		<?php printf( __( 'Proudly powered by %s', 'CYLinBlog' ), 'lincuiyang' ); ?>
 	</a>
 </div><!-- .site-info -->
