@@ -1,26 +1,36 @@
-<?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage CYLinBlog
- * @since 1.0
- * @version 1.0
- */
+<?php get_header(); ?>
 
-get_header();?>
+	<main role="main">
+		<!-- section -->
+		<section>
 
-<link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css"/>
-<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 
+			<?php get_template_part('loop'); ?>
 
+			<?php get_template_part('pagination'); ?>
 
+		</section>
+		<!-- /section -->
+	</main>
 
-<?php get_footer();
+	<!-- 按钮触发器， 需要指定 target -->
+<button class="am-btn am-btn-success" data-am-offcanvas="{target: '#doc-oc-demo3'}">右侧显示边栏</button>
+
+<!-- 侧边栏内容 -->
+<div id="doc-oc-demo3" class="am-offcanvas">
+  <div class="am-offcanvas-bar am-offcanvas-bar-flip">
+    <div class="am-offcanvas-content">
+      <p>
+        我不愿让你一个人 <br/>
+        承受这世界的残忍 <br/>
+        我不愿眼泪陪你到 永恒 <br/>
+      </p>
+      <p><a href="http://music.163.com/#/song?id=385554" target="_blank">网易音乐</a>      </p>
+    </div>
+  </div>
+</div>
+
+<?php get_sidebar(); ?>
+
+<?php get_footer(); ?>
