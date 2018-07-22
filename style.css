@@ -16,6 +16,10 @@
 \*------------------------------------*/
 body {
 	background-color: #f6f6f6;
+    font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 1.6rem;
 }
 
 ul {
@@ -26,10 +30,15 @@ ul {
 
 .container {
 	max-width: 900px;
-	margin-left: auto;
-    margin-right: auto;
+	margin: 0 auto;
 }
 
+
+
+
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
 .header{
 	position:fixed;
 	top:0;
@@ -43,13 +52,30 @@ ul {
 	border-style: none;
 }
 
+.header h2 {
+	float: left;
+	margin-right: 30px;
+}
+
+/*.header a {
+	color: #424251;
+}
+*/
+.nav-menu {
+	float: right;
+}
+
+.nav-menu li {
+	float: left;
+	margin: 0 15px;
+}
 
 
 /*------------------------------------*\
-    STRUCTURE
+    INDEX
 \*------------------------------------*/
-.nav-menu {
-	float: right;
+.main {
+
 }
 
 

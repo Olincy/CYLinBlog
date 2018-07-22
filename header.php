@@ -51,6 +51,8 @@
         });
         </script>
 
+
+
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -66,14 +68,33 @@
 
 				    <div class="nav-menu">
 			      		<ul class="">
-			        	<li class=""><a href="#">首页</a></li>
-			       		<li><a href="#">项目</a></li>
-			        
-			      </ul>
-			    </div>
+			        	<li class=""><a href="#">iOS</a></li>
+			        	<li class=""><a href="#">Swift</a></li>
+			        	<li class=""><a href="#">PHP</a></li>
+			        	<li class=""><a href="#">Python</a></li>
+			        	<li class=""><a href="#">记录</a></li>
+			       		<li><a href="" data-am-offcanvas="{target: '#doc-oc-demo3'}">关于博主</a></li>
+			      		</ul>
+			    	</div>
 				</div>
 
 				
 			  
 			</header>
 			<!-- /header -->
+			<!-- 侧边栏内容 -->
+<div id="doc-oc-demo3" class="am-offcanvas">
+  <div class="am-offcanvas-bar am-offcanvas-bar-flip">
+    <div class="am-offcanvas-content">
+      <p>
+        我不愿让你一个人 <br/>
+        承受这世界的残忍 <br/>
+        我不愿眼泪陪你到 永恒 <br/>
+      </p>
+      <p><a href="http://music.163.com/#/song?id=385554" target="_blank">网易音乐</a>      </p>
+    </div>
+  </div>
+</div>
+
+
+
