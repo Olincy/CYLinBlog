@@ -15,7 +15,7 @@
     MAIN
 \*------------------------------------*/
 body {
-	background-color: #f6f6f6;
+	background-color: #ffffff;
     font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
     font-weight: 400;
     color: #333;
@@ -29,7 +29,7 @@ ul {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 780px;
 	margin: 0 auto;
 }
 
@@ -46,7 +46,7 @@ ul {
 	z-index:99;
 	height:64px;
 	line-height: 64px;
-	background-color:#fafafa;
+	background-color:#ffffff;
 	box-shadow:5px 1px 20px rgba(0,0,0,.07);
 	border-width: 0;
 	border-style: none;
@@ -70,15 +70,54 @@ ul {
 	margin: 0 15px;
 }
 
+.nav-menu li a {
+	color: #a2a2a2;
+}
+
+.nav-menu li a:hover {
+	color: #424251;
+	font-weight:bold;
+}
+
 
 /*------------------------------------*\
     INDEX
 \*------------------------------------*/
 .main {
-
+margin: 100px auto;
 }
 
 
+.article-content {
+	float: left;
+	color: #656D78;
+	margin: 1rem auto;
+	line-height: 3rem;
+}
+
+
+.article-img img {
+	width: 100%;
+	
+}
+
+.post-list header {
+	
+	margin-top: 2rem;
+}
+
+.post-list footer span {
+	color: #AAB2BD;
+	font-size: 14px;
+}
+
+.post-list footer span.hr {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background: #AAB2BD;	
+    margin: 4px 1rem;
+}
 
 /*------------------------------------*\
     PAGES
